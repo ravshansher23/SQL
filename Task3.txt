@@ -1,0 +1,18 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| example            |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| test1              |
+| test2              |
++--------------------+
+7 rows in set (0.00 sec)
+
+mysql> exit
+Bye
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysqldump -u root -p example > C:\Users\ravsh\Desktop\SQL_test\sample
